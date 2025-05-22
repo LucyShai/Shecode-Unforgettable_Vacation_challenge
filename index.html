@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfoprgattable Vacation</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #99ccd4;
+  padding: 15px 40px;
+}
+
+.nav-logo {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 70px;
+}
+
+.nav-links {
+  list-style:none;
+  display: flex; /* 👈 This makes the list horizontal */
+  gap: 20px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.nav-links li a {
+  color:black;
+  text-decoration:underline;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  margin-right: 60px;
+}
+
+.nav-links li a:hover {
+  color: #f7f5ef;
+}
+
+section {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+
+}
+
+.about-text h2 {
+    font-style: italic;
+    color: #0e0f0f;
+    
+}
+/* About santirini */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 40px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+}
+
+.about-image {
+  flex: 1 1 45%;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1 1 45%;
+}
+
+.about-text h2:hover {
+  margin-bottom: 15px;
+  color: #064f61;
+  text-decoration: underline;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.footer
+{
+    text-align: center;
+  background-color: #99ccd4;
+  padding: 15px 40px;
+}
+.subscribe-form h2{
+    text-align: center;
+    color: #0e0f0f;
+}
+.form-box {
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.subscribe-form {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.subscribe-form input[type="text"],
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscribe-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-form input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="nav-logo">Best Places  in Greece for vacation </div>
+    <ul class="nav-links">
+      <li><a href="#San">Santorini</a></li>
+      <li><a href="#Mykcons">Mykonos</a></li>
+      <li><a href="#Rhodes">Rhodes</a></li>
+      <li><a href="#Book">Book</a></li>
+
+    </ul>
+  </nav>
+
+  <section class="about-section" id="San">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="img\OIP.jfif" alt="santorini view">
+    </div>
+    <div class="about-text">
+      <h2>Santorini</h2>
+      <p>
+        Romantic, Beaches, Island, Arts & culture, Festivals & events, Summer
+         Santorini in Greece is the largest island of a small, circular archipelago in the southern Aegean Sea approximately 200 kilometers southeast of the mainland with a total land area of 90.623 square kilometers. It derived its name from the iconic caldera of Santorini in the center of the volcanic field including the extinct Christiana Volcano. Its municipality includes two inhabited islands and four uninhabited islands and is part of the Thira regional u
+      </p>
+    </div>
+  </div>
+   </section>
+  <section class="about-section" id="Mykcons">
+  <div class="about-container"> 
+    <div class="about-text"> 
+      <h2>Mykonos</h2>
+      <p>
+        Mention Mykonos and a few images will spring to mind, whether it’s celebrities sunbathing on yachts, bright white Cycladic architecture or paradisiacal beaches.
+        <br>
+        One of the most popular islands in the Aegean, Mykonos has a fun-loving, cosmopolitan atmosphere and is well-established as a gay-friendly destination.
+        <br>
+        You’ll want to spend as much time as possible in the fashionable and arty Chora (Mykonos Town) getting share-worthy shots of the famous windmills and pure white houses. Even the cracks between the marble paving stones are painted white here.
+      </p>
+    </div>
+
+    <div class="about-image"> 
+      <img src="img/OIP (1).jfif" alt="Mykonos view">
+    </div>
+  </div>
+</section>
+
+
+  <section class="about-section" id="Rhodes">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="img\R (1).jfif" alt="santorini view">
+    </div>
+    <div class="about-text">
+      <h2>Rhodes</h2>
+      
+      <p>
+      Ancient city ruins dating back to the 7th century B.C., showcasing advanced civilization.
+      Historic citadel with ancient structures and breathtaking views of the Aegean Sea
+       Well-preserved medieval castle with antique furniture and guided tours available.
+       <br>
+      Nature park known for colorful butterflies and picturesque nature walks
+      Castle offering stunning views and a picturesque setting, ideal for photography
+      </p>
+    </div>
+  </div>
+</section>
+   <div class="form-box" id="Book">
+  <form action="/submit" class="subscribe-form">
+    <h2>Book Your Stay</h2>
+    <label for="name">Enter your name:</label><br>
+    <input type="text" placeholder="Your name" name="name" id="name" required /><br><br>
+
+    <label for="email">Enter your email:</label><br>
+    <input type="email" placeholder="Your email" name="email" id="email" required /><br><br>
+
+    <input type="submit" value="Book" />
+  </form>
+</div>
+
+
+     
+  
+<div class="footer">
+  <p>Lucy Shai Author</p>
+</div>
+</body>
+</html>
